@@ -2,7 +2,7 @@ import ProjectCard from "./components/ProjectCard";
 import AutoScrolling from "./components/AutoScrolling";
 import "./App.css";
 import { programmings, volunteers, studyingLogs } from "./data";
-import MeMain from "./assets/img/MeMain.jpg";
+import MeMain from "./assets/img/MeA.jpg";
 import Me from "./assets/img/Me.jpg";
 import Me1 from "./assets/img/Me1.jpg";
 import Me2 from "./assets/img/Me2.jpg";
