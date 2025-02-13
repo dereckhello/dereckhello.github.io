@@ -2,6 +2,7 @@ import ProjectCard from "./components/ProjectCard";
 import AutoScrolling from "./components/AutoScrolling";
 import "./App.css";
 import { programmings, volunteers, studyingLogs } from "./data";
+import MeMain from "./assets/img/MeMain.jpg";
 import Me from "./assets/img/Me.jpg";
 import Me1 from "./assets/img/Me1.jpg";
 import Me2 from "./assets/img/Me2.jpg";
@@ -58,10 +59,11 @@ function App() {
           autoplay={{ delay: 3000, disableOnInteraction: false }} // 自动播放，3秒间隔
           pagination={{ clickable: true }} // 指示器可点击
           modules={[Autoplay, Pagination]} // 引入模块
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
           className="w-[1200px] h-[620px]" // Swiper 固定大小
         >
+          <SwiperSlide className="flex justify-center items-center w-[1200px] h-[620px]">
+            <img src={MeMain} className="w-full h-full object-cover rounded" loading="lazy" />
+          </SwiperSlide>
           <SwiperSlide className="flex justify-center items-center w-[1200px] h-[620px]">
             <img src={Me} className="w-full h-full object-cover rounded" loading="lazy" />
           </SwiperSlide>
@@ -96,7 +98,7 @@ function App() {
         </h2>
         <AutoScrolling
           content={volunteers.concat(volunteers).map((project, index) => (
-            <div key={index} className="flex-shrink-0">
+            <div key={index} className="w-86 flex-shrink-0">
               <ProjectCard {...project} />
             </div>
           ))}
@@ -109,7 +111,7 @@ function App() {
         </h2>
         <AutoScrolling
           content={studyingLogs.concat(studyingLogs).map((project, index) => (
-            <div key={index} className="flex-shrink-0">
+            <div key={index} className="w-86 flex-shrink-0">
               <ProjectCard {...project} />
             </div>
           ))}

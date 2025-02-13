@@ -5,19 +5,32 @@ import FlappyBird from "../assets/img/FlappyBird.jpg";
 import AMagicalWallpaperCrawler from "../assets/img/AMagicalWallpaperCrawler.jpg";
 import AlienInvasion from "../assets/img/AlienInvasion.jpg";
 import AFunMathGame from "../assets/img/AFunMathGame.jpg";
-import BuffaloSolider from "../assets/img/BuffaloSolider.png";
-import Formulas from "../assets/img/Formulas.png";
-import Germany from "../assets/img/Germany.png";
-import Peace from "../assets/img/Peace.png";
-import Versailles from "../assets/img/Versailles.png";
-import TwoPoliticalComics from "../assets/img/TwoPoliticalComics.png";
-import Img191921 from "../assets/img/1919-21.png";
-import League from "../assets/img/League.png";
-import LeagueofNations from "../assets/img/LeagueofNations.png";
-import Volunteer1 from "../assets/img/Volunteer1.png";
-import Volunteer2 from "../assets/img/Volunteer2.png";
-import Volunteer3 from "../assets/img/Volunteer3.png";
 import magicalWallpaperCrawlerVideo from "../assets/video/magicalWallpaperCrawler.mp4";
+import BookReviewofBuffaloSolider from "../assets/img/studylog/BookReviewofBuffaloSolider.jpg";
+import Rememberingpolyatomicionformulas from "../assets/img/studylog/Rememberingpolyatomicionformulas.jpg";
+import TheseriousconsequenceoftheVersaillesSettlementforGermany from "../assets/img/studylog/TheseriousconsequenceoftheVersaillesSettlementforGermany.jpg";
+import WilsonFourteen from "../assets/img/studylog/WilsonFourteen.jpg";
+import AComic from "../assets/img/studylog/AComic.jpg";
+import ComparisononTwoPoliticalComics from "../assets/img/studylog/ComparisononTwoPoliticalComics.jpg";
+import Theroleof from "../assets/img/studylog/Theroleof.jpg";
+import Theabsenceof from "../assets/img/studylog/Theabsenceof.jpg";
+import Howtoevaluate from "../assets/img/studylog/Howtoevaluate.jpg";
+import VolunteerPromoter from "../assets/img/volunteer/VolunteerPromoter.jpg";
+import Createtraditionalfestival from "../assets/img/volunteer/Createtraditionalfestival.jpg";
+import Thespokesperson from "../assets/img/volunteer/Thespokesperson.jpg";
+
+import subBookReviewofBuffaloSolider from "../assets/img/studylog/sub/BookReviewofBuffaloSolider.jpg";
+import subRememberingpolyatomicionformulas from "../assets/img/studylog/sub/Rememberingpolyatomicionformulas.jpg";
+import subTheseriousconsequenceoftheVersaillesSettlementforGermany from "../assets/img/studylog/sub/TheseriousconsequenceoftheVersaillesSettlementforGermany.jpg";
+import subWilsonFourteen from "../assets/img/studylog/sub/WilsonFourteen.jpg";
+import subAComic from "../assets/img/studylog/sub/AComic.jpg";
+import subComparisononTwoPoliticalComics from "../assets/img/studylog/sub/ComparisononTwoPoliticalComics.jpg";
+import subTheroleof from "../assets/img/studylog/sub/Theroleof.jpg";
+import subTheabsenceof from "../assets/img/studylog/sub/Theabsenceof.jpg";
+import subHowtoevaluate from "../assets/img/studylog/sub/Howtoevaluate.jpg";
+import subVolunteerPromoter from "../assets/img/volunteer/sub/VolunteerPromoter.jpg";
+import subCreatetraditionalfestival from "../assets/img/volunteer/sub/Createtraditionalfestival.jpg";
+import subThespokesperson from "../assets/img/volunteer/sub/Thespokesperson.jpg";
 
 export const programmings = [
   {
@@ -94,7 +107,7 @@ I shared this website with my classmates and roommates, and now it has become a 
   },
   {
     type: "programmings",
-    title: "Alien invasion",
+    title: "Alien Invasion",
     technologies: ["pygame"],
     description: `
 This project was inspired by the airplane shooting games I loved as a kid. In this game, players control the mouse via their mobile phone to fire bullets on the screen, aiming to eliminate the invading forces. The most exciting part is that the invaders gradually advance toward the spaceship at the bottom, requiring quick reflexes and precise shooting within a limited time.
@@ -126,9 +139,10 @@ Let's watch the demonstration of the fun game.`,
 export const volunteers = [
   {
     type: "volunteers",
-    title: "Volunteer Promoter of the Family Education Promotion Law",
+    title: "Volunteer Promoter Of The Family Education Promotion Law",
     technologies: ["Activity experience"],
-    firstImg: Volunteer1,
+    firstImg: VolunteerPromoter,
+    subImg: subVolunteerPromoter,
     imgs: [],
     text: `In March 2022, I registered as a volunteer promoter for the Family Education Promotion Law on the official account platform of the volunteer Beijing. During the year-long volunteer project, I participated in the distribution of promotional questionnaires for the Family Education Promotion Law, and in community-organized activities, I promoted knowledge about the Family Education Promotion Law and explained scientific family education knowledge. This project has accumulated more than 20 hours of public welfare time, and has also helped me gain a deeper understanding of the social recognition, promotion, and importance of the Family Education Promotion Law.
 
@@ -138,9 +152,10 @@ Our questionnaire survey is divided into online and offline forms. The research 
   },
   {
     type: "volunteers",
-    title: "Create traditional festival posters to inherit national culture",
+    title: "Create Traditional Festival Posters To Inherit National Culture",
     technologies: ["Activity experience"],
-    firstImg: Volunteer2,
+    firstImg: Createtraditionalfestival,
+    subImg: subCreatetraditionalfestival,
     imgs: [],
     text: `In February 2023, I participated in the volunteer poster activity on the online platform of Volunteer Beijing about traditional cultural festivals. In February, the poster production I participated in mainly revolved around Lantern Festival and the Beginning of Spring.
 
@@ -150,9 +165,10 @@ The Beginning of Spring is the first of the 24 solar terms in China. "Li" means 
   },
   {
     type: "volunteers",
-    title: `The spokesperson for "Clean the Plate"`,
+    title: `The Spokesperson For "Clean The Plate"`,
     technologies: ["Activity experience"],
-    firstImg: Volunteer3,
+    firstImg: Thespokesperson,
+    subImg: subThespokesperson,
     imgs: [],
     text: `I have recited the poem "Pity the Peasants" since I was a child, and I know the hardships of hoeing rice in the middle of the day and sweating on the soil. So when I saw the Clean Your Plate Campaign launched by volunteers in Beijing, I didn't hesitate to apply to participate. This activity requires volunteers to make posters for the Clean Your Plate Campaign and post them on the platform, and post a photo of my doing the Clean Your Plate Campaign on the platform for seven consecutive days, to practice the Clean Your Plate Campaign in person.
 
@@ -163,9 +179,10 @@ The Clean Your Plate Campaign starts with me, with every little thing around me.
 export const studyingLogs = [
   {
     type: "studyingLogs",
-    title: "Book Review of Buffalo Solider",
+    title: "Book Review Of Buffalo Solider",
     technologies: ["Book Review"],
-    firstImg: BuffaloSolider,
+    firstImg: BookReviewofBuffaloSolider,
+    subImg: subBookReviewofBuffaloSolider,
     imgs: [],
     text: `I have read a book called “Buffalo Solider” written by Tanya Landman depicting the society in the US after the American Civil War. 
 
@@ -179,9 +196,10 @@ In my opinion, people are born with the same number of opportunities and choices
   },
   {
     type: "studyingLogs",
-    title: "Remembering polyatomic ion formulas",
+    title: "Remembering Polyatomic Ion Formulas",
     technologies: ["Learning Tips"],
-    firstImg: Formulas,
+    firstImg: Rememberingpolyatomicionformulas,
+    subImg: subRememberingpolyatomicionformulas,
     imgs: [],
     text: `This is a method I discovered when I am in Year 10(Grade 9) at IGCSE stage in Hong Kong. As we know, there are only six polyatomic ions we must remember during IGCSE which are nitrate ion, sulphate ion, phosphate ion, carbonate ion, ammonium ion, hydroxide ion. Because of I felt challenged to memorize the symbols and the number of electrons each of these polyatomic ions contains, I tried to work out the relationships between them. Thinking about the actual structure of each element, I worked out the equation shown on the image above. After discussing the equation I found with my chemistry teacher, I realized there may be some misunderstanding of the structures I assumed they were. So, it turns out that the equation only works in a limited number of polyatomic ions. 
 
@@ -191,9 +209,10 @@ Overall, the equation seems to work in IGCSE stage but still needs to develop to
   },
   {
     type: "studyingLogs",
-    title: "The serious consequence of the Versailles Settlement for Germany",
+    title: "The Serious Consequence Of The Versailles Settlement For Germany",
     technologies: ["Historical Review"],
-    firstImg: Germany,
+    firstImg: TheseriousconsequenceoftheVersaillesSettlementforGermany,
+    subImg: subTheseriousconsequenceoftheVersaillesSettlementforGermany,
     imgs: [],
     text: `There are both arguments for and statements against that Loss of territories was the most serious consequence of the Versailles Settlement for Germany.
 
@@ -209,9 +228,10 @@ In conclusion, the loss of territories for Germany was severe but there were als
   },
   {
     type: "studyingLogs",
-    title: "Wilson's Fourteen Points of Peace improving the lives of Europeans",
+    title: "Wilson's Fourteen Points Of Peace Improving The Lives Of Europeans",
     technologies: ["Historical Review"],
-    firstImg: Peace,
+    firstImg: WilsonFourteen,
+    subImg: subWilsonFourteen,
     imgs: [],
     text: `Wilsons’ Fourteen Points of Peace were significant for improving the lives of Europeans if focusing on the self-determination. Wilson’s point of the Self-determination led to the creation of several new states. Poland is one of the examples. Self-determination allowed people to choose their own government and rule themselves. This implies that democracy was strengthened which subsequently reduced the power of Empires. Therefore, Wilson's Points of peace was significant.
 
@@ -221,17 +241,19 @@ In conclusion, most of the Wilson’s Fourteen Points for Peace improved the liv
   },
   {
     type: "studyingLogs",
-    title: "A Comic about Treaty of Versailles ",
+    title: "A Comic About Treaty Of Versailles ",
     technologies: ["Comic Review"],
-    firstImg: Versailles,
+    firstImg: AComic,
+    subImg: subAComic,
     imgs: [],
     text: `The cartoon was published to say that the Treaty of Versailles is fair. As shown in the cartoon, Germany was forced to accept the peace terms mentioned in the treaty by the Big Four. The author believed the terms are fair because British people believed that Germany is celebrated for starting the war and was confident to win in the war. This implies that Germany was reasonable to be blamed for starting the war, because they were excited for fighting in the war, which caused a lot of damages and people being dead. The cartoon published in 1919 when the World War One ended. Therefore, the big message of this cartoon is to say that the Treaty of Versailles was fair and convince people to believe it.`,
   },
   {
     type: "studyingLogs",
-    title: "Comparison on Two Political Comics",
+    title: "Comparison On Two Political Comics",
     technologies: ["Comic Review"],
-    firstImg: TwoPoliticalComics,
+    firstImg: ComparisononTwoPoliticalComics,
+    subImg: subComparisononTwoPoliticalComics,
     imgs: [],
     text: `The first source was published to say that the Big Three should be harsh on Germany. As shown in the cartoon, as the German man saw the peace terms on the newspaper, he was shocked. Explained by the caption, it is because he felt that the terms have treated them so nice. This is shown in the sentence ‘why it’s fully a quarter of what we should have made them to pay, if we'd won’. It implies that British people thought the Treaty of Versailles was treating them too nice. They believed that if Germany won the war, it would treat them harsher than they did. This was published in April 1919 to argue the treaty was so nice to Germany. Therefore, the big message of this source is to say that they should be harsher on Germany and making fun of Germany as well.
 
@@ -264,17 +286,19 @@ In conclusion, the League really did a good job in humanitarian work, but not al
   },
   {
     type: "studyingLogs",
-    title: "The role of the League in the Upper Silesia dispute of 1919-21",
+    title: "The Role Of The League In The Upper Silesia Dispute Of 1919-21",
     technologies: ["Historical Review"],
-    firstImg: Img191921,
+    firstImg: Theroleof,
+    subImg: subTheroleof,
     imgs: [],
     text: ` The League of Nations decided the Upper Silesia should be given to Poland at first. Germany asked the league to re-consider it, and the league finally made a plebiscite in the region. Based on the result, the league decided the western Upper Silesia should be given to Germany. This decision was accepted both by Germany and Poland, which means it was a total success.`,
   },
   {
     type: "studyingLogs",
-    title: "The absence of some countries from the League weaken it",
+    title: "The Absence Of Some Countries From The League Weaken It",
     technologies: ["Historical Review"],
-    firstImg: League,
+    firstImg: Theabsenceof,
+    subImg: subTheabsenceof,
     imgs: [],
     text: ` The League of Nations was weakened from the absence of some countries because its reputation may be damaged. At the first, the League was leaded by Britain and France, the winners in the World War One. Germany wasn't allowed to join the League based on the Treaty of Versailles. This led to that the League was firstly seen as the League of the winners in the World War One. Instead of a peacekeeper, the League may be decided and acted in favor of Britain and France. Therefore, its reputation in the defeated countries was damaged. As a result, it was somehow weakened.
 
@@ -282,9 +306,10 @@ The League was weakened from the absence of some countries because it didn't hav
   },
   {
     type: "studyingLogs",
-    title: "The absence of some countries from the League weaken it",
+    title: "How To Evaluate The Humanitarian Work Of The League Of Nations",
     technologies: ["Historical Review"],
-    firstImg: LeagueofNations,
+    firstImg: Howtoevaluate,
+    subImg: subHowtoevaluate,
     imgs: [],
     text: ` ‘The humanitarian work of the League of Nations was the most successful of its activities in the 1920s.’ There are both statements to say that the humanitarian work of the League of Nations was the most successful and not.
 

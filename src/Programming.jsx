@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { programmings } from "./data/index";
+import codebanner from "./assets/img/codebanner.jpg";
 
 const Programming = () => {
   const location = useLocation();
@@ -15,17 +16,34 @@ const Programming = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen max-w-7xl mx-auto px-2 py-4">
-      <div className="h-[400px] w-full overflow-hidden rounded-xl shadow-md">
-        <img
-          src={currentItem.firstImg}
-          className="w-full h-full object-cover"
-          alt={currentItem.title}
-        />
+    <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="relative h-[320px] w-full">
+        <div className="h-full w-full overflow-hidden rounded-xl shadow-md">
+          <img
+            src={codebanner}
+            className="w-full h-full object-cover"
+            alt={currentItem.title}
+          />
+        </div>
       </div>
       <div className="mt-4 flex-1 grid grid-cols-3 gap-4">
-        <div className="p-6 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl col-span-2 py-4">
+        <div className=" p-6 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl col-span-2 py-4">
+          <div className="flex align-middle items-center">
           <h1 className="text-3xl font-bold">{currentItem.title}</h1>
+          <div className="ml-4 z-10">
+          {currentItem.technologies.map((tech) => {
+            return (
+              <span
+                key={tech}
+                className="px-3 py-1.5 bg-sky-400 backdrop-blur-sm text-white text-sm font-medium rounded-lg shadow-lg"
+              >
+                {tech}
+              </span>
+            );
+          })}
+        </div>
+          </div>
+          
           <div className="mt-4">
             <video
               src={currentItem.video}
