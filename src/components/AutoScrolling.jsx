@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
-// import ProjectCard from "./ProjectCard";
 
 const AutoScrolling = ({ speed = 1,content }) => {
   const scrollRef = useRef(null);
@@ -38,25 +37,12 @@ const AutoScrolling = ({ speed = 1,content }) => {
     >
       <div className="scroll-content">
         {content}
-        {/* {data.concat(data).map((project, index) => (
-          <div key={index} className="w-86 flex-shrink-0">
-            <ProjectCard {...project} />
-          </div>
-        ))} */}
       </div>
     </div>
   );
 };
 
 AutoScrolling.propTypes = {
-  // data: PropTypes.arrayOf(
-  //   PropTypes.shape({
-  //     id: PropTypes.number.isRequired,
-  //     title: PropTypes.string.isRequired,
-  //     description: PropTypes.string,
-  //     image: PropTypes.string,
-  //   })
-  // ).isRequired,
   speed: PropTypes.number,
   content: PropTypes.dom
 };
