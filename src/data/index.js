@@ -31,12 +31,6 @@ import subVolunteerPromoter from "../assets/img/volunteer/sub/VolunteerPromoter.
 import subCreatetraditionalfestival from "../assets/img/volunteer/sub/Createtraditionalfestival.jpg";
 import subThespokesperson from "../assets/img/volunteer/sub/Thespokesperson.jpg";
 
-import SketchAsistantsVideo from "../assets/video/SketchAsistants.mp4";
-import ExpressionDetectionMasterVideo from "../assets/video/ExpressionDetectionMaster.mp4";
-import FlappyBirdGameVideo from "../assets/video/FlappyBirdGame.mp4";
-import MagicWallpaperCrawlerVideo from "../assets/video/MagicWallpaperCrawler.mp4";
-import AlienInvasionVideo from "../assets/video/AlienInvasion.mp4"; 
-import TwentyFourPuzzleAppVideo from "../assets/video/TwentyFourPuzzleApp.mp4";
 
 
 
@@ -64,7 +58,7 @@ Designing websites with programming languages has opened my cyberspace, allowing
 Through AI programming, I developed a function that processes and turns complex paintings into simple sketch portraits, aiding beginners and self-taught art students in understanding the fundamentals of line work. 
 `,
     firstImg: SketchAssistant,
-    video: SketchAsistantsVideo,
+    video: 'https://github.com/dereckhello/dereckhello.github.io/releases/download/1.0.0/SketchAsistants.mp4',
     text: "",
     code: 'SketchAssistant.py'
   },
@@ -79,7 +73,7 @@ Utilizing AI, I’ve developed a program that intelligently recognizes and promp
 This work has a wide range of applications, such as helping teachers quickly identify students who are depressed and distracted in the classroom and improving communication efficiency.
 `,
     firstImg: ExpressionDetectionMaster,
-    video: ExpressionDetectionMasterVideo,
+    video: 'https://github.com/dereckhello/dereckhello.github.io/releases/download/1.0.0/ExpressionDetectionMaster.mp4',
     text: "",
     code: 'Expression-Detection-Master.zip'
   },
@@ -93,7 +87,7 @@ Don’t underestimate how challenging this game is! It’s a true test of hand-e
 My original inspiration for this game came from not being able to visit my grandfather. I created the game to exercise his reaction ability in a fun way.
 `,
     firstImg: FlappyBird,
-    video: FlappyBirdGameVideo,
+    video: 'https://github.com/dereckhello/dereckhello.github.io/releases/download/1.0.0/FlappyBirdGame.mp4',
     text: "",
     code: 'flappy_bird.zip'
   },
@@ -106,7 +100,7 @@ This program can be used to create seasonal images for anything from school proj
 
 I shared this website with my classmates and roommates, and now it has become a tool for managing our photo materials.`,
     firstImg: AMagicalWallpaperCrawler,
-    video: MagicWallpaperCrawlerVideo,
+    video: 'https://github.com/dereckhello/dereckhello.github.io/releases/download/1.0.0/MagicWallpaperCrawler.mp4',
     text: "",
     code: "MagicalWallpaperCrawler.py"
   },
@@ -120,7 +114,7 @@ After developing this game, I realized it's great for improving finger dexterity
 
 Now, let’s check out a demonstration of this fun game!`,
     firstImg: AlienInvasion,
-    video: AlienInvasionVideo,
+    video: 'https://github.com/dereckhello/dereckhello.github.io/releases/download/1.0.0/AlienInvasion.mp4',
     text: "",
     code: "Alien-Invasion-Pygame-1.0.0.zip"
   },
@@ -135,7 +129,7 @@ The system automatically generates four numbers. The task is to use any combinat
 
 Let's watch the demonstration of the fun game.`,
     firstImg: AFunMathGame,
-    video: TwentyFourPuzzleAppVideo,
+    video: 'https://github.com/dereckhello/dereckhello.github.io/releases/download/1.0.0/TwentyFourPuzzleApp.mp4',
     text: "",
     code: 'Twenty-Four-Puzzle-in-Python-1.0.0'
   },
