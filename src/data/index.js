@@ -5,7 +5,6 @@ import FlappyBird from "../assets/img/FlappyBird.jpg";
 import AMagicalWallpaperCrawler from "../assets/img/AMagicalWallpaperCrawler.jpg";
 import AlienInvasion from "../assets/img/AlienInvasion.jpg";
 import AFunMathGame from "../assets/img/AFunMathGame.jpg";
-import magicalWallpaperCrawlerVideo from "../assets/video/magicalWallpaperCrawler.mp4";
 import BookReviewofBuffaloSolider from "../assets/img/studylog/BookReviewofBuffaloSolider.jpg";
 import Rememberingpolyatomicionformulas from "../assets/img/studylog/Rememberingpolyatomicionformulas.jpg";
 import TheseriousconsequenceoftheVersaillesSettlementforGermany from "../assets/img/studylog/TheseriousconsequenceoftheVersaillesSettlementforGermany.jpg";
@@ -32,6 +31,15 @@ import subVolunteerPromoter from "../assets/img/volunteer/sub/VolunteerPromoter.
 import subCreatetraditionalfestival from "../assets/img/volunteer/sub/Createtraditionalfestival.jpg";
 import subThespokesperson from "../assets/img/volunteer/sub/Thespokesperson.jpg";
 
+import SketchAsistantsVideo from "../assets/video/SketchAsistants.mp4";
+import ExpressionDetectionMasterVideo from "../assets/video/ExpressionDetectionMaster.mp4";
+import FlappyBirdGameVideo from "../assets/video/FlappyBirdGame.mp4";
+import MagicWallpaperCrawlerVideo from "../assets/video/MagicWallpaperCrawler.mp4";
+import AlienInvasionVideo from "../assets/video/AlienInvasion.mp4"; 
+import TwentyFourPuzzleAppVideo from "../assets/video/TwentyFourPuzzleApp.mp4";
+
+
+
 export const programmings = [
   {
     type: "programmings",
@@ -43,7 +51,7 @@ This website has three channels: Coding Project, Volunteer Program, and Studying
 
 Designing websites with programming languages has opened my cyberspace, allowing me to keep records, share ideas, and continue thinking.`,
     firstImg: HelloWorlder,
-    video: magicalWallpaperCrawlerVideo,
+    video: '',
     text: "",
     code: "",
   },
@@ -54,10 +62,9 @@ Designing websites with programming languages has opened my cyberspace, allowing
     description: `The name of this work is "Sketch Assistant."
 
 Through AI programming, I developed a function that processes and turns complex paintings into simple sketch portraits, aiding beginners and self-taught art students in understanding the fundamentals of line work. 
-
-Let me show you how it works.`,
+`,
     firstImg: SketchAssistant,
-    video: magicalWallpaperCrawlerVideo,
+    video: SketchAsistantsVideo,
     text: "",
     code: 'SketchAssistant.py'
   },
@@ -70,10 +77,9 @@ Let me show you how it works.`,
 Utilizing AI, I’ve developed a program that intelligently recognizes and prompts expressions. 
 
 This work has a wide range of applications, such as helping teachers quickly identify students who are depressed and distracted in the classroom and improving communication efficiency.
-
-Let me show you how it works.`,
+`,
     firstImg: ExpressionDetectionMaster,
-    video: magicalWallpaperCrawlerVideo,
+    video: ExpressionDetectionMasterVideo,
     text: "",
     code: 'Expression-Detection-Master.zip'
   },
@@ -85,10 +91,9 @@ Let me show you how it works.`,
 Don’t underestimate how challenging this game is! It’s a true test of hand-eye coordination. 
 
 My original inspiration for this game came from not being able to visit my grandfather. I created the game to exercise his reaction ability in a fun way.
-
-Let me show you how it works.`,
+`,
     firstImg: FlappyBird,
-    video: magicalWallpaperCrawlerVideo,
+    video: FlappyBirdGameVideo,
     text: "",
     code: 'flappy_bird.zip'
   },
@@ -101,7 +106,7 @@ This program can be used to create seasonal images for anything from school proj
 
 I shared this website with my classmates and roommates, and now it has become a tool for managing our photo materials.`,
     firstImg: AMagicalWallpaperCrawler,
-    video: magicalWallpaperCrawlerVideo,
+    video: MagicWallpaperCrawlerVideo,
     text: "",
     code: "MagicalWallpaperCrawler.py"
   },
@@ -115,7 +120,7 @@ After developing this game, I realized it's great for improving finger dexterity
 
 Now, let’s check out a demonstration of this fun game!`,
     firstImg: AlienInvasion,
-    video: magicalWallpaperCrawlerVideo,
+    video: AlienInvasionVideo,
     text: "",
     code: "Alien-Invasion-Pygame-1.0.0.zip"
   },
@@ -130,7 +135,7 @@ The system automatically generates four numbers. The task is to use any combinat
 
 Let's watch the demonstration of the fun game.`,
     firstImg: AFunMathGame,
-    video: magicalWallpaperCrawlerVideo,
+    video: TwentyFourPuzzleAppVideo,
     text: "",
     code: 'Twenty-Four-Puzzle-in-Python-1.0.0'
   },
@@ -140,7 +145,7 @@ export const volunteers = [
   {
     type: "volunteers",
     title: "Volunteer Promoter Of The Family Education Promotion Law",
-    technologies: ["Activity experience"],
+    technologies: ["Volunteer Diary"],
     firstImg: VolunteerPromoter,
     subImg: subVolunteerPromoter,
     imgs: [],
@@ -153,7 +158,7 @@ Our questionnaire survey is divided into online and offline forms. The research 
   {
     type: "volunteers",
     title: "Create Traditional Festival Posters To Inherit National Culture",
-    technologies: ["Activity experience"],
+    technologies: ["Volunteer Diary"],
     firstImg: Createtraditionalfestival,
     subImg: subCreatetraditionalfestival,
     imgs: [],
@@ -166,7 +171,7 @@ The Beginning of Spring is the first of the 24 solar terms in China. "Li" means 
   {
     type: "volunteers",
     title: `The Spokesperson For "Clean The Plate"`,
-    technologies: ["Activity experience"],
+    technologies: ["Volunteer Diary"],
     firstImg: Thespokesperson,
     subImg: subThespokesperson,
     imgs: [],

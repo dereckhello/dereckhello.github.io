@@ -50,13 +50,12 @@ const Programming = () => {
               controls
               loop
               preload="auto"
-              muted
               width="100%" // 设置宽度为 100%，也可以根据需要自定义
               height="auto" // 保持视频的纵横比
             ></video>
           </div>
-
-          <div className="my-6">
+          {
+            currentItem.code && <div className="my-6">
             <button
               onClick={() => downloadFile(currentItem.code)}
               className="flex items-center bg-slate-600 text-white font-semibold px-4 py-2 rounded-lg shadow-md hover:bg-slate-700 transition ease-in-out duration-300 hover:cursor-pointer"
@@ -77,9 +76,11 @@ const Programming = () => {
                   fill="#ffffff"
                 ></path>
               </svg>
-              <span className="mx-2">{currentItem.code}</span>
+              <span className="mx-2"> <span className="mr-2">Download the Source Code</span> ({ currentItem.code})</span>
             </button>
           </div>
+          }
+          
         </div>
         <div className="p-6 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl">
           <h1 className="text-3xl font-bold">Introduction</h1>

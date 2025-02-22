@@ -2,11 +2,8 @@ import ProjectCard from "./components/ProjectCard";
 import AutoScrolling from "./components/AutoScrolling";
 import "./App.css";
 import { programmings, volunteers, studyingLogs } from "./data";
-import MeMain from "./assets/img/MeA.jpg";
-import Me from "./assets/img/Me.jpg";
-import Me1 from "./assets/img/Me1.jpg";
-import Me2 from "./assets/img/Me2.jpg";
-import Me3 from "./assets/img/Me3.jpg";
+import MeA from "./assets/img/MeA.jpg";
+import MeB from "./assets/img/MeB.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -31,7 +28,7 @@ function App() {
           </svg>
         </a>
       </div>
-      <div className="flex justify-between px-[10px]">
+      <div className="flex justify-between px-[10px] pt-[10px]">
         <div className="px-[10px]">
           <div className="flex items-center">
             <h1 className="text-6xl font-bold">
@@ -62,19 +59,10 @@ function App() {
           className="w-[1200px] h-[620px]" // Swiper 固定大小
         >
           <SwiperSlide className="flex justify-center items-center w-[1200px] h-[620px]">
-            <img src={MeMain} className="w-full h-full object-cover rounded" loading="lazy" />
+            <img src={MeA} className="w-full h-full object-cover rounded" loading="lazy" />
           </SwiperSlide>
           <SwiperSlide className="flex justify-center items-center w-[1200px] h-[620px]">
-            <img src={Me} className="w-full h-full object-cover rounded" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center w-[1200px] h-[620px]">
-            <img src={Me1} className="w-full h-full object-cover rounded" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center w-[1200px] h-[620px]">
-            <img src={Me2} className="w-full h-full object-cover rounded" loading="lazy" />
-          </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center w-[1200px] h-[620px]">
-            <img src={Me3} className="w-full h-full object-cover rounded"  loading="lazy" />
+            <img src={MeB} className="w-full h-full object-cover rounded" loading="lazy" />
           </SwiperSlide>
         </Swiper>
       </section>
