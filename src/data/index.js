@@ -18,19 +18,6 @@ import VolunteerPromoter from "../assets/img/volunteer/VolunteerPromoter.jpg";
 import Createtraditionalfestival from "../assets/img/volunteer/Createtraditionalfestival.jpg";
 import Thespokesperson from "../assets/img/volunteer/Thespokesperson.jpg";
 
-import subBookReviewofBuffaloSolider from "../assets/img/studylog/sub/BookReviewofBuffaloSolider.jpg";
-import subRememberingpolyatomicionformulas from "../assets/img/studylog/sub/Rememberingpolyatomicionformulas.jpg";
-import subTheseriousconsequenceoftheVersaillesSettlementforGermany from "../assets/img/studylog/sub/TheseriousconsequenceoftheVersaillesSettlementforGermany.jpg";
-import subWilsonFourteen from "../assets/img/studylog/sub/WilsonFourteen.jpg";
-import subAComic from "../assets/img/studylog/sub/AComic.jpg";
-import subComparisononTwoPoliticalComics from "../assets/img/studylog/sub/ComparisononTwoPoliticalComics.jpg";
-import subTheroleof from "../assets/img/studylog/sub/Theroleof.jpg";
-import subTheabsenceof from "../assets/img/studylog/sub/Theabsenceof.jpg";
-import subHowtoevaluate from "../assets/img/studylog/sub/Howtoevaluate.jpg";
-import subVolunteerPromoter from "../assets/img/volunteer/sub/VolunteerPromoter.jpg";
-import subCreatetraditionalfestival from "../assets/img/volunteer/sub/Createtraditionalfestival.jpg";
-import subThespokesperson from "../assets/img/volunteer/sub/Thespokesperson.jpg";
-
 
 
 
@@ -141,8 +128,6 @@ export const volunteers = [
     title: "Volunteer Promoter Of The Family Education Promotion Law",
     technologies: ["Volunteer Diary"],
     firstImg: VolunteerPromoter,
-    subImg: subVolunteerPromoter,
-    imgs: [],
     text: `In March 2022, I registered as a volunteer promoter for the Family Education Promotion Law on the official account platform of the volunteer Beijing. During the year-long volunteer project, I participated in the distribution of promotional questionnaires for the Family Education Promotion Law, and in community-organized activities, I promoted knowledge about the Family Education Promotion Law and explained scientific family education knowledge. This project has accumulated more than 20 hours of public welfare time, and has also helped me gain a deeper understanding of the social recognition, promotion, and importance of the Family Education Promotion Law.
 
 The Family Education Promotion Law was promulgated and implemented in January 2022. The content of the Lawl stipulates the responsibilities of families in the growth of children, the support of the state, and other aspects, carrying forward the fine tradition of the Chinese nation's emphasis on family education, and guiding the whole society to pay attention to family, family education, and family style.
@@ -154,8 +139,6 @@ Our questionnaire survey is divided into online and offline forms. The research 
     title: "Create Traditional Festival Posters To Inherit National Culture",
     technologies: ["Volunteer Diary"],
     firstImg: Createtraditionalfestival,
-    subImg: subCreatetraditionalfestival,
-    imgs: [],
     text: `In February 2023, I participated in the volunteer poster activity on the online platform of Volunteer Beijing about traditional cultural festivals. In February, the poster production I participated in mainly revolved around Lantern Festival and the Beginning of Spring.
 
 Lantern Festival is a traditional Chinese festival that celebrates family reunion and praying for a happy new year. On the Lantern Festival, people eat rice dumplings together, which means reunion and harmony; Admire the lanterns and pray for wisdom and success. The earliest record of Lantern Festival dates back to the Song Dynasty, and there are also some folk performances such as lion dance and Yangge Dance. After doing these thorough research, I designed a poster about Lantern Festival and participated in online chain activities. I will inherit folk culture in my own way and celebrate the festival together.
@@ -167,8 +150,6 @@ The Beginning of Spring is the first of the 24 solar terms in China. "Li" means 
     title: `The Spokesperson For "Clean The Plate"`,
     technologies: ["Volunteer Diary"],
     firstImg: Thespokesperson,
-    subImg: subThespokesperson,
-    imgs: [],
     text: `I have recited the poem "Pity the Peasants" since I was a child, and I know the hardships of hoeing rice in the middle of the day and sweating on the soil. So when I saw the Clean Your Plate Campaign launched by volunteers in Beijing, I didn't hesitate to apply to participate. This activity requires volunteers to make posters for the Clean Your Plate Campaign and post them on the platform, and post a photo of my doing the Clean Your Plate Campaign on the platform for seven consecutive days, to practice the Clean Your Plate Campaign in person.
 
 The Clean Your Plate Campaign starts with me, with every little thing around me. Participating in this activity also gave me a deep understanding of how good habits are formed. For example, the seven-day action has deeply impressed the awareness of Clean the Plate in my heart. I also call on my classmates and friends to try to develop good habits through such phased goals and efforts.`,
@@ -181,8 +162,6 @@ export const studyingLogs = [
     title: "Book Review Of Buffalo Solider",
     technologies: ["Book Review"],
     firstImg: BookReviewofBuffaloSolider,
-    subImg: subBookReviewofBuffaloSolider,
-    imgs: [],
     text: `I have read a book called “Buffalo Solider” written by Tanya Landman depicting the society in the US after the American Civil War. 
 
 The main character in the book is an African American called Charley. After the Yankees won the war, African Americans were announced being free officially. However, Charley’s story does not seem like that. Even after the announcement, her friends were killed by a gang of drunk men, and she was sent to the prairie dealing with Native Americans after she joined the cavalry of African Americans by pretending as a man. 
@@ -198,8 +177,6 @@ In my opinion, people are born with the same number of opportunities and choices
     title: "Remembering Polyatomic Ion Formulas",
     technologies: ["Learning Tips"],
     firstImg: Rememberingpolyatomicionformulas,
-    subImg: subRememberingpolyatomicionformulas,
-    imgs: [],
     text: `This is a method I discovered when I am in Year 10(Grade 9) at IGCSE stage in Hong Kong. As we know, there are only six polyatomic ions we must remember during IGCSE which are nitrate ion, sulphate ion, phosphate ion, carbonate ion, ammonium ion, hydroxide ion. Because of I felt challenged to memorize the symbols and the number of electrons each of these polyatomic ions contains, I tried to work out the relationships between them. Thinking about the actual structure of each element, I worked out the equation shown on the image above. After discussing the equation I found with my chemistry teacher, I realized there may be some misunderstanding of the structures I assumed they were. So, it turns out that the equation only works in a limited number of polyatomic ions. 
 
 The limitation would be that: if the central atom wants to gain less electrons than the sum of all the other atoms want to lose, the equation will work. Beyond that, if there are no special double bonds as well.
@@ -211,8 +188,6 @@ Overall, the equation seems to work in IGCSE stage but still needs to develop to
     title: "The Serious Consequence Of The Versailles Settlement For Germany",
     technologies: ["Historical Review"],
     firstImg: TheseriousconsequenceoftheVersaillesSettlementforGermany,
-    subImg: subTheseriousconsequenceoftheVersaillesSettlementforGermany,
-    imgs: [],
     text: `There are both arguments for and statements against that Loss of territories was the most serious consequence of the Versailles Settlement for Germany.
 
 The loss of territory was the most serious consequence of the Treaty of Versailles for Germany in terms of the natural resources in these territories. There were lots of Germany's coalfields in the Saarland, and Saarland was originally governed by Germany. However, based on the Treaty of Versailles, Saarland would be run by the League of Nations, and then a plebiscite to be held after 15 years. This implies that Germany would lose and area which has rich resources, so their speed of technology development may be slowed down the production or machinery maybe limited. This slowed down the development of Germany and reduced its armed forces. The loss of territory was the most serious consequence of the Treaty of Versailles for Germany.
@@ -230,8 +205,6 @@ In conclusion, the loss of territories for Germany was severe but there were als
     title: "Wilson's Fourteen Points Of Peace Improving The Lives Of Europeans",
     technologies: ["Historical Review"],
     firstImg: WilsonFourteen,
-    subImg: subWilsonFourteen,
-    imgs: [],
     text: `Wilsons’ Fourteen Points of Peace were significant for improving the lives of Europeans if focusing on the self-determination. Wilson’s point of the Self-determination led to the creation of several new states. Poland is one of the examples. Self-determination allowed people to choose their own government and rule themselves. This implies that democracy was strengthened which subsequently reduced the power of Empires. Therefore, Wilson's Points of peace was significant.
 
 However, Wilson's Fourteen Points of Peace were not significant for improving the lives of European if focusing on the League of Nations. Even though the League of Nations was created, and it has tried to prevent wars and helped improving living and working conditions in European, it wasn’t working well. While it had over 20 countries being a part of it, the superpower USA didn't join after a vote of Congress. This implies that the League of Nations did not have the most secure economic and military ability to impose sanctions on aggressive nations. So, it didn’t have the superpower to prevent wors. Therefore, Wilson's Fourteen Points weren’t significant
@@ -243,8 +216,6 @@ In conclusion, most of the Wilson’s Fourteen Points for Peace improved the liv
     title: "A Comic About Treaty Of Versailles ",
     technologies: ["Comic Review"],
     firstImg: AComic,
-    subImg: subAComic,
-    imgs: [],
     text: `The cartoon was published to say that the Treaty of Versailles is fair. As shown in the cartoon, Germany was forced to accept the peace terms mentioned in the treaty by the Big Four. The author believed the terms are fair because British people believed that Germany is celebrated for starting the war and was confident to win in the war. This implies that Germany was reasonable to be blamed for starting the war, because they were excited for fighting in the war, which caused a lot of damages and people being dead. The cartoon published in 1919 when the World War One ended. Therefore, the big message of this cartoon is to say that the Treaty of Versailles was fair and convince people to believe it.`,
   },
   {
@@ -252,8 +223,6 @@ In conclusion, most of the Wilson’s Fourteen Points for Peace improved the liv
     title: "Comparison On Two Political Comics",
     technologies: ["Comic Review"],
     firstImg: ComparisononTwoPoliticalComics,
-    subImg: subComparisononTwoPoliticalComics,
-    imgs: [],
     text: `The first source was published to say that the Big Three should be harsh on Germany. As shown in the cartoon, as the German man saw the peace terms on the newspaper, he was shocked. Explained by the caption, it is because he felt that the terms have treated them so nice. This is shown in the sentence ‘why it’s fully a quarter of what we should have made them to pay, if we'd won’. It implies that British people thought the Treaty of Versailles was treating them too nice. They believed that if Germany won the war, it would treat them harsher than they did. This was published in April 1919 to argue the treaty was so nice to Germany. Therefore, the big message of this source is to say that they should be harsher on Germany and making fun of Germany as well.
 
 The cartoon in the second source was published to say that the Treaty of Versailles was unfair. As shown in the cartoon, the man who was sucking blood from the woman represents French, while the woman represents Germany. Besides, the two bats represent the USA and Britain. In the cartoon, the woman was weakened and surrounded by threats, which implies that Germany was threatened and forced to accept some unfair terms. This conveys a feeling that Germany was weakened and made a lot of Germans being furious. It's published in July 1919 which is the time that the Treaty of Versailles had been signed. Therefore, the big message of this source is to convey that Germany was weakened by the treaty and encourage people to revenge and destroy the Treaty of Versailles.
@@ -288,8 +257,6 @@ In conclusion, the League really did a good job in humanitarian work, but not al
     title: "The Role Of The League In The Upper Silesia Dispute Of 1919-21",
     technologies: ["Historical Review"],
     firstImg: Theroleof,
-    subImg: subTheroleof,
-    imgs: [],
     text: ` The League of Nations decided the Upper Silesia should be given to Poland at first. Germany asked the league to re-consider it, and the league finally made a plebiscite in the region. Based on the result, the league decided the western Upper Silesia should be given to Germany. This decision was accepted both by Germany and Poland, which means it was a total success.`,
   },
   {
@@ -297,8 +264,6 @@ In conclusion, the League really did a good job in humanitarian work, but not al
     title: "The Absence Of Some Countries From The League Weaken It",
     technologies: ["Historical Review"],
     firstImg: Theabsenceof,
-    subImg: subTheabsenceof,
-    imgs: [],
     text: ` The League of Nations was weakened from the absence of some countries because its reputation may be damaged. At the first, the League was leaded by Britain and France, the winners in the World War One. Germany wasn't allowed to join the League based on the Treaty of Versailles. This led to that the League was firstly seen as the League of the winners in the World War One. Instead of a peacekeeper, the League may be decided and acted in favor of Britain and France. Therefore, its reputation in the defeated countries was damaged. As a result, it was somehow weakened.
 
 The League was weakened from the absence of some countries because it didn't have enough of money to propose some actions. The USA was absent because of its own conflicts in its parliament. However, the USA was the country who started the idea to make a league. Britain said if they knew that the USA wasn't going to join the League, they would not do so neither. Britain and France were damaged a lot after the war and they also needed to pay loans to the USA. This means that even there would be a country being condemned, the league was powerless to ask other countries to stop trading with it, because every country needed trading to recover themselves. Therefore, the absence of the USA indeed weakened the League.`,
@@ -308,8 +273,6 @@ The League was weakened from the absence of some countries because it didn't hav
     title: "How To Evaluate The Humanitarian Work Of The League Of Nations",
     technologies: ["Historical Review"],
     firstImg: Howtoevaluate,
-    subImg: subHowtoevaluate,
-    imgs: [],
     text: ` ‘The humanitarian work of the League of Nations was the most successful of its activities in the 1920s.’ There are both statements to say that the humanitarian work of the League of Nations was the most successful and not.
 
 The League of Nations was successful regarding to the Health Committee. The Health Committee organized a lot of campaigns which successfully stopped the spread of a typhus epidemic in Soviet Russia. In addition, it banned the poisonous white lead in painting and built a lot of institutions all over the world. As you can see, the Health Commitee made connections with non-member countries and saved a lot of lives. Therefore, in terms of the Heath Committee, the League of Nations was successful.
