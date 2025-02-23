@@ -6,7 +6,9 @@ const StudyingLog = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const title = searchParams.get("title");
+  console.log(title)
   const currentLog = studyingLogs.find((item) => item.title === title);
+  console.log(currentLog)
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">

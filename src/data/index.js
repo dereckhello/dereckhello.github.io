@@ -213,7 +213,7 @@ In conclusion, most of the Wilson’s Fourteen Points for Peace improved the liv
   },
   {
     type: "studyingLogs",
-    title: "A Comic About Treaty Of Versailles ",
+    title: "A Comic About Treaty Of Versailles",
     technologies: ["Comic Review"],
     firstImg: AComic,
     text: `The cartoon was published to say that the Treaty of Versailles is fair. As shown in the cartoon, Germany was forced to accept the peace terms mentioned in the treaty by the Big Four. The author believed the terms are fair because British people believed that Germany is celebrated for starting the war and was confident to win in the war. This implies that Germany was reasonable to be blamed for starting the war, because they were excited for fighting in the war, which caused a lot of damages and people being dead. The cartoon published in 1919 when the World War One ended. Therefore, the big message of this cartoon is to say that the Treaty of Versailles was fair and convince people to believe it.`,
